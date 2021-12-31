@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "128045",
+      "name": "m2",
+      "font_class": "m2",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "11700904",
+      "name": "设置",
+      "font_class": "tubiao-shezhi",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "19644834",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "garden-web-trunk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "echarts": "^4.9.0",
+    "element-ui": "^2.13.2",
+    "jquery": "^3.5.1",
+    "js-cookie": "^2.2.0",
+    "lib-flexible": "^0.3.2",
+    "lodash": "^4.17.20",
+    "px2rem-loader": "^0.1.9",
+    "resize-detector": "^0.2.2",
+    "svg-sprite-loader": "^4.1.6",
+    "view-design": "^4.4.0",
+    "vue": "^2.6.11",
+    "vue-lodash": "^2.1.2",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "javascript-obfuscator": "^2.10.1",
+    "postcss-pxtorem": "^5.1.1",
+    "sass": "^1.18.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-obfuscator": "^2.6.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
